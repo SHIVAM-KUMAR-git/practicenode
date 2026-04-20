@@ -20,7 +20,7 @@
 
 import java.util.*;
 
-class Solution {
+class RotateArray{
 
     static void rotateArr(int arr[], int d) {
         int n = arr.length;

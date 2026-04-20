@@ -38,7 +38,7 @@ class Solution {
     }
 }
 
-public class Main {
+public class Move_All_Zeroes_to_End{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
