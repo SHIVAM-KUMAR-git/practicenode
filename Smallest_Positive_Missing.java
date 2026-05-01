@@ -4,6 +4,7 @@ find the smallest positive number missing from the array.
 Note: Positive number starts from 1. The array can have 
 negative integers too.
 
+
 Examples:
 
 Input: arr[] = [2, -3, 4, 1, 1, 7]
@@ -19,8 +20,7 @@ Output: 1
 Explanation: Smallest positive missing number is 1 */
 
 import java.util.*;
-
-class Smallest_Positive_Missing {
+class Smallest_Positive_Missing{
     public int missingNumber(int[] arr) {
         Arrays.sort(arr);
 
