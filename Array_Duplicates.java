@@ -16,7 +16,7 @@ Explanation: There is no repeating element in the array, so the output is empty.
 
 import java.util.*;
 
-class Solution {
+class Array_Duplicates {
 
     public ArrayList<Integer> findDuplicates(int[] arr) {
 
