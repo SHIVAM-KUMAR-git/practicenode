@@ -25,7 +25,6 @@ class Second_Largest {
 
         int max = -1;
         int smax = -1;
-
         int n = arr.length;
 
         for (int i = 0; i < n; i++) {

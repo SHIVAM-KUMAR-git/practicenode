@@ -25,7 +25,6 @@ class Count_Pairs {
         int c = 0;
 
         Arrays.sort(arr);
-
         while (i < j) {
             int sum = arr[i] + arr[j];
 
