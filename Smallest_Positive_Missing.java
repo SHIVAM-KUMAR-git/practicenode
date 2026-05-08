@@ -24,13 +24,11 @@ class Smallest_Positive_Missing{
     public int missingNumber(int[] arr) {
         Arrays.sort(arr);
         int res = 1;
-
         for (int num : arr) {
             if (num == res) {
                 res++;
             }
         }
-
         return res;
     }
 
