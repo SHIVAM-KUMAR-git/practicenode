@@ -25,7 +25,6 @@ class BinarySearch {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
-
             if (nums[mid] == target) {
                 return mid;
             } 
@@ -45,15 +44,13 @@ class BinarySearch {
 
         
         int n = sc.nextInt();
-
+        
         int[] nums = new int[n];
 
-        
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
 
-        
         int target = sc.nextInt();
 
         Solution obj = new Solution();
