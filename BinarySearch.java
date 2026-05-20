@@ -15,9 +15,7 @@ Input: nums = [-1,0,3,5,9,12], target = 2
 Output: -1
 Explanation: 2 does not exist in nums so return -1*/
 
-
 import java.util.Scanner;
-
 class BinarySearch {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -44,7 +42,6 @@ class BinarySearch {
 
         
         int n = sc.nextInt();
-        
         int[] nums = new int[n];
 
         for (int i = 0; i < n; i++) {
@@ -52,13 +49,9 @@ class BinarySearch {
         }
 
         int target = sc.nextInt();
-
         Solution obj = new Solution();
-
         int result = obj.search(nums, target);
-
         System.out.println(result);
-
         sc.close();
     }
 }
