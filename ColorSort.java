@@ -16,7 +16,6 @@ Input: nums = [2,0,1]
 Output: [0,1,2]*/
 
 import java.util.Scanner;
-
 class Solution {
     public void sortColors(int[] nums) {
         int low = 0, mid = 0, high = nums.length - 1;
@@ -49,7 +48,6 @@ public class ColorSort {
         // Input size
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
-
         int[] nums = new int[n];
 
         // Input array
@@ -61,7 +59,7 @@ public class ColorSort {
         Solution obj = new Solution();
         obj.sortColors(nums);
 
-        
+    
         System.out.print("Sorted array: ");
         for (int i = 0; i < n; i++) {
             System.out.print(nums[i] + " ");
